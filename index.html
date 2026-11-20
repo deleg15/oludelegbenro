@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Oludele Samson Gbenro — Head of Product Management & Brand Communication</title>
-<meta name="description" content="Oludele Gbenro: Head of Product Management &amp; Brand Communication. Brand, product and customer experience leadership: selected work, testimonials and awards.">
+<meta name="description" content="Oludele Gbenro: Head of Product Management &amp; Brand Communication at First Registrars, and Brand Experience Manager at CleCheck. Brand, product and customer experience leadership: selected work, testimonials and awards.">
+<link rel="icon" href="assets/img/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="canonical" href="https://deleg15.github.io/oludelegbenro/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Oludele Gbenro">
@@ -24,10 +27,22 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --navy:#0D1B3E;--gold:#C9A84C;--cream:#FAFAF7;
+  --navy:#0D1B3E;--gold:#C9A84C;--gold-on-light:#866A27;--cream:#FAFAF7;
   --slate:#4A5568;--light:#F4F4F8;--border:#E2E8F0;
   --text:#1A1F36;--muted:#6B7280;
 }
+#about,#skills,#services,#portfolio,#testimonials,#contact,#gallery{scroll-margin-top:5.5rem}
+.nav-toggle{display:none;width:44px;height:44px;background:transparent;border:1.5px solid var(--gold);cursor:pointer;padding:0;align-items:center;justify-content:center}
+.nav-toggle-bars,.nav-toggle-bars::before,.nav-toggle-bars::after{display:block;width:18px;height:2px;background:var(--gold);position:relative}
+.nav-toggle-bars::before,.nav-toggle-bars::after{content:"";position:absolute;left:0}
+.nav-toggle-bars::before{top:-6px}
+.nav-toggle-bars::after{top:6px}
+.nav-toggle[aria-expanded="true"] .nav-toggle-bars{background:transparent}
+.nav-toggle[aria-expanded="true"] .nav-toggle-bars::before{top:0;transform:rotate(45deg)}
+.nav-toggle[aria-expanded="true"] .nav-toggle-bars::after{top:0;transform:rotate(-45deg)}
+.hero-also{color:rgba(255,255,255,0.82);font-size:0.92rem;margin:-0.15rem 0 0.85rem;font-weight:600}
+.hero-also a{color:var(--gold);border-bottom:1px solid rgba(201,168,76,0.55)}
+.hero-also a:hover{border-bottom-color:var(--gold)}
 body{font-family:'Segoe UI',system-ui,sans-serif;color:var(--text);background:var(--cream);line-height:1.6}
 a{text-decoration:none}
 nav{background:var(--navy);padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
@@ -55,7 +70,7 @@ section{padding:4rem 2rem;max-width:1100px;margin:0 auto}
 .bg-light{background:var(--light);padding:4rem 2rem}
 .bg-navy{background:var(--navy);padding:4rem 2rem}
 .inner{max-width:1100px;margin:0 auto}
-.eyebrow{color:var(--gold);font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;font-weight:700;margin-bottom:0.4rem}
+.eyebrow{color:var(--gold-on-light);font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;font-weight:700;margin-bottom:0.4rem}
 .eyebrow-w{color:var(--gold);font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;font-weight:700;margin-bottom:0.4rem}
 .section-title{font-size:1.85rem;font-weight:700;color:var(--navy);margin-bottom:0.4rem;line-height:1.2}
 .section-title-w{font-size:1.85rem;font-weight:700;color:#fff;margin-bottom:0.4rem;line-height:1.2}
@@ -63,11 +78,13 @@ section{padding:4rem 2rem;max-width:1100px;margin:0 auto}
 
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start}
 .about-card{background:#fff;border:0.5px solid var(--border);padding:1.6rem;margin-bottom:1rem}
-.about-label{font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:0.45rem}
+.about-label{font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold-on-light);font-weight:700;margin-bottom:0.45rem}
 .about-text{color:var(--slate);font-size:0.92rem;line-height:1.75}
+.about-text a{color:var(--gold-on-light);border-bottom:1px solid rgba(134,106,39,0.45)}
+.about-text a:hover{border-bottom-color:var(--gold-on-light)}
 .unique-list{list-style:none;margin-top:0.7rem}
 .unique-list li{padding:0.32rem 0;color:var(--slate);font-size:0.91rem;display:flex;align-items:flex-start;gap:0.45rem}
-.unique-list li::before{content:"▸";color:var(--gold);font-size:0.85rem;margin-top:0.15rem;flex-shrink:0}
+.unique-list li::before{content:"▸";color:var(--gold-on-light);font-size:0.85rem;margin-top:0.15rem;flex-shrink:0}
 
 .skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(185px,1fr));gap:1rem}
 .skill-card{background:#fff;border:0.5px solid var(--border);padding:1.35rem;position:relative;overflow:hidden}
@@ -92,12 +109,12 @@ section{padding:4rem 2rem;max-width:1100px;margin:0 auto}
 .port-img{width:100%;height:195px;object-fit:cover;display:block;transition:transform 0.3s}
 .port-card:hover .port-img{transform:scale(1.03)}
 .port-body{padding:1.2rem}
-.port-type{font-size:0.66rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:0.38rem}
+.port-type{font-size:0.66rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold-on-light);font-weight:700;margin-bottom:0.38rem}
 .port-title{font-size:0.98rem;font-weight:700;color:var(--navy);margin-bottom:0.38rem}
 .port-desc{font-size:0.81rem;color:var(--muted);line-height:1.65}
 .cs-row{display:grid;grid-template-columns:repeat(2,1fr);gap:0.55rem;margin-top:0.9rem}
 .cs-box{border:0.5px solid var(--border);padding:0.6rem;background:var(--light)}
-.cs-label{font-size:0.6rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:0.22rem}
+.cs-label{font-size:0.6rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold-on-light);font-weight:700;margin-bottom:0.22rem}
 .cs-value{font-size:0.78rem;color:var(--slate);line-height:1.5}
 
 /* BEHANCE BANNER */
@@ -117,7 +134,21 @@ section{padding:4rem 2rem;max-width:1100px;margin:0 auto}
 .t-avatar{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--navy),#2d5a9e);border:2px solid var(--gold);display:flex;align-items:center;justify-content:center;font-size:0.78rem;font-weight:700;color:var(--gold);flex-shrink:0}
 .t-name{font-weight:700;font-size:0.88rem;color:var(--navy)}
 .t-role{font-size:0.76rem;color:var(--muted);line-height:1.4}
-.t-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:200px;border:1.5px dashed var(--border);background:var(--light);color:var(--muted);font-size:0.82rem;gap:0.4rem;padding:1.5rem;text-align:center}
+.t-share{background:#fff;border:0.5px solid var(--border);padding:1.75rem;grid-column:1/-1}
+.t-share h3{font-size:1.08rem;color:var(--navy);margin:0 0 0.35rem;font-weight:700}
+.t-share-lead{font-size:0.84rem;color:var(--slate);line-height:1.65;margin-bottom:1.05rem}
+.t-form{display:grid;gap:0.8rem}
+@media(min-width:700px){.t-form{grid-template-columns:1fr 1fr;gap:0.85rem 1rem}.t-form .full{grid-column:1/-1}}
+.t-form label{display:flex;flex-direction:column;gap:0.28rem;font-size:0.78rem;font-weight:700;color:var(--navy)}
+.t-form .hint{font-weight:500;color:var(--muted);font-size:0.72rem}
+.t-form input[type=text],.t-form input[type=email],.t-form textarea{font:inherit;font-weight:400;font-size:0.88rem;color:var(--text);border:1px solid var(--border);background:var(--cream);padding:0.6rem 0.7rem;width:100%;border-radius:0}
+.t-form textarea{min-height:8rem;resize:vertical}
+.t-form input:focus,.t-form textarea:focus{outline:2px solid var(--gold);outline-offset:1px;border-color:var(--gold)}
+.t-consent{flex-direction:row;align-items:flex-start;gap:0.55rem;font-weight:500;font-size:0.84rem;color:var(--slate)}
+.t-consent input{margin-top:0.2rem;width:1.15rem;height:1.15rem;flex-shrink:0;accent-color:var(--navy)}
+.t-form button.btn-primary{border:0;cursor:pointer;justify-self:start;font-family:inherit}
+.t-honey{position:absolute;left:-9999px;height:1px;width:1px;overflow:hidden}
+
 
 .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1rem;margin-bottom:1.75rem}
 .why-card{padding:1.35rem;border:0.5px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.05);text-align:center}
@@ -135,7 +166,8 @@ footer{background:#07101f;padding:2rem;text-align:center}
 .footer-links{display:flex;gap:1.4rem;justify-content:center;margin-bottom:0.85rem;flex-wrap:wrap}
 .footer-links a{color:rgba(255,255,255,0.45);font-size:0.79rem}
 .footer-links a:hover{color:var(--gold)}
-.footer-copy{color:rgba(255,255,255,0.28);font-size:0.75rem}
+.footer-copy{color:rgba(255,255,255,0.55);font-size:0.75rem}
+#portfolio .btn-outline{color:var(--gold-on-light);border-color:var(--gold-on-light)}
 
 @media(max-width:700px){
   .hero-content{grid-template-columns:1fr;text-align:center}
@@ -143,7 +175,12 @@ footer{background:#07101f;padding:2rem;text-align:center}
   .about-grid{grid-template-columns:1fr}
   .portfolio-grid{grid-template-columns:1fr}
   .behance-banner{flex-direction:column;gap:1rem}
-  nav{flex-wrap:wrap;gap:0.5rem}
+  nav{flex-wrap:wrap;gap:0;align-items:center}
+  .nav-toggle{display:inline-flex}
+  .nav-links{display:none;flex-direction:column;gap:0;flex-basis:100%;width:100%;padding:0.35rem 0 0.5rem}
+  .nav-links.is-open{display:flex}
+  .nav-links>li{width:100%}
+  .nav-links a{display:block;padding:0.7rem 0}
 }
 
 /* NAV DROPDOWN */
@@ -154,22 +191,26 @@ footer{background:#07101f;padding:2rem;text-align:center}
 .nav-links .sub a{display:block;padding:0.45rem 0.9rem;white-space:nowrap}
 .nav-links .has-sub{padding-bottom:0.4rem;margin-bottom:-0.4rem}
 @media(max-width:700px){
-  .nav-links .sub{position:static;display:inline-flex;background:none;border:0;padding:0;min-width:0;margin-left:0.5rem}
-  .nav-links .sub a{padding:0}
+  .nav-links .sub{position:static;display:flex;flex-direction:column;background:none;border:0;padding:0 0 0 0.9rem;min-width:0;margin:0}
+  .nav-links .sub a{padding:0.4rem 0}
   .nav-links .sub a::before{content:"\21B3 ";color:var(--gold)}
   .nav-links .has-sub{padding-bottom:0;margin-bottom:0}
 }
 </style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Oludele Samson Gbenro","url":"https://deleg15.github.io/oludelegbenro/","image":"https://deleg15.github.io/oludelegbenro/assets/img/og-image.jpg","email":"mailto:oludele.gbenro@gmail.com","jobTitle":["Head of Product Management & Brand Communication, First Registrars & Investor Services Limited","Brand Experience Manager, CleCheck"],"worksFor":[{"@type":"Organization","name":"First Registrars & Investor Services Limited"},{"@type":"Organization","name":"CleCheck","url":"https://check.cle.ng/about.html","description":"KYC and identity verification"}],"address":{"@type":"PostalAddress","addressLocality":"Lagos","addressCountry":"NG"},"sameAs":["https://www.linkedin.com/in/oludelegbenro","https://www.behance.net/deleg15"]}
+</script>
 </head>
 <body>
 
 <nav>
   <div class="logo">OSG</div>
-  <ul class="nav-links">
+  <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span class="nav-toggle-bars" aria-hidden="true"></span></button>
+  <ul class="nav-links" id="site-nav">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#services">Services</a></li>
-    <li class="has-sub"><a href="#portfolio" aria-haspopup="true">Portfolio</a>
+    <li class="has-sub"><a href="#portfolio" aria-haspopup="true" aria-expanded="false">Portfolio</a>
       <ul class="sub" aria-label="Portfolio submenu">
         <li><a href="gallery.html">Gallery</a></li>
       </ul>
@@ -182,13 +223,14 @@ footer{background:#07101f;padding:2rem;text-align:center}
 
 <!-- HERO -->
 <div class="hero-wrap">
-  <img class="hero-banner" src="assets/img/hero-banner.jpg" alt="Oludele Gbenro — Product Management, Brand Communications, Marketing Strategist">
+  <img class="hero-banner" src="assets/img/hero-banner.jpg" width="2000" height="600" alt="Oludele Gbenro — Head of Product Management &amp; Brand Communication">
   <div class="hero-content">
     <img class="hero-photo" src="assets/img/hero-photo.jpg" alt="Oludele Samson Gbenro professional headshot">
     <div class="hero">
-      <div class="hero-eyebrow">Head of Product Management & Brand Communication</div>
+      <div class="hero-eyebrow">Head of Product Management &amp; Brand Communication, First Registrars</div>
+      <p class="hero-also">Brand Experience Manager, <a href="https://check.cle.ng/about.html" target="_blank" rel="noopener">CleCheck</a></p>
       <h1>Brand, product and<br>customer experience<br><span>leader.</span></h1>
-      <p class="hero-value">18+ years in capital market services. I lead product and brand communication at First Registrars & Investor Services Limited, working with a cross-functional team of up to 10 across digital media, brand development and email marketing. Design remains part of how I build brands. One employer. Proven loyalty and depth.</p>
+      <p class="hero-value">18+ years in capital market services. I lead product and brand communication at First Registrars &amp; Investor Services Limited, working with a cross-functional team of up to 10 across digital media, brand development and email marketing, and I serve as Brand Experience Manager at CleCheck, a KYC and identity verification company. Design remains part of how I build brands. A long tenure at First Registrars — proven loyalty and depth.</p>
       <div class="hero-cta">
         <a class="btn-primary" href="#portfolio">View my work</a>
         <a class="btn-outline" href="#contact">Let's talk</a>
@@ -210,7 +252,7 @@ footer{background:#07101f;padding:2rem;text-align:center}
     <div>
       <div class="about-card">
         <div class="about-label">Introduction</div>
-        <p class="about-text">I'm Oludele Samson Gbenro — a Lagos-based Head of Product Management and Brand Communication with a career built entirely at First Registrars & Investor Services Limited. What looks like loyalty is really the story of someone who kept growing, taking on new challenges, and redefining what in-house brand and product leadership looks like.</p>
+        <p class="about-text">I'm Oludele Samson Gbenro — a Lagos-based Head of Product Management and Brand Communication at First Registrars &amp; Investor Services Limited, and Brand Experience Manager at <a href="https://check.cle.ng/about.html" target="_blank" rel="noopener">CleCheck</a>, a KYC and identity verification company. At First Registrars, what looks like loyalty is really the story of someone who kept growing, taking on new challenges, and redefining what in-house brand and product leadership looks like.</p>
       </div>
       <div class="about-card">
         <div class="about-label">Mission</div>
@@ -220,8 +262,8 @@ footer{background:#07101f;padding:2rem;text-align:center}
     <div>
       <div class="about-card">
         <div class="about-label">Career background</div>
-        <p class="about-text">Started as a Graphic Designer in 2008, progressed through Email Marketing Design and Brand Management, and now serve as Head of Product Management and Brand Communication. Along the way I added video production, AI tool integration, social media strategy, and cross-functional team leadership — without ever losing sight of the craft.</p>
-        <p class="about-text" style="margin-top:0.65rem">MBA in Human Resources Management, Ajayi Crowther University (2019). Recognised as First Registrars Corporate Image Ambassador 2025.</p>
+        <p class="about-text">Started as a Graphic Designer at First Registrars &amp; Investor Services Limited in 2008, progressed through Email Marketing Design and Brand Management, and now serve as Head of Product Management and Brand Communication. I also currently serve as Brand Experience Manager at <a href="https://check.cle.ng/about.html" target="_blank" rel="noopener">CleCheck</a>, a KYC and identity verification company. Along the way I added video production, AI tool integration, social media strategy, and cross-functional team leadership — without ever losing sight of the craft.</p>
+        <p class="about-text" style="margin-top:0.65rem">MBA, Ajayi Crowther University (2019), pursued for leadership development. Recognised as First Registrars Corporate Image Ambassador 2025.</p>
       </div>
       <div class="about-card">
         <div class="about-label">What makes me different</div>
@@ -435,7 +477,7 @@ footer{background:#07101f;padding:2rem;text-align:center}
 
     <div class="t-card" style="grid-column: span 2">
       <span class="t-quote">&ldquo;</span>
-      <p class="t-text long">Oludele Gbenro, the Head of Product Development & Brand Communication, has consistently demonstrated exceptional creativity, strategic vision, and professionalism in developing and strengthening the organization's brand identity. He has played a pivotal role in creating and implementing a comprehensive brand strategy that ensures consistency across all communication channels. His expertise in establishing corporate colour schemes, typography, memo templates, and other visual identity standards has provided the organization with a distinctive and cohesive brand image that is instantly recognizable.
+      <p class="t-text long">Oludele Gbenro, the Head of Product Management &amp; Brand Communication, has consistently demonstrated exceptional creativity, strategic vision, and professionalism in developing and strengthening the organization's brand identity. He has played a pivotal role in creating and implementing a comprehensive brand strategy that ensures consistency across all communication channels. His expertise in establishing corporate colour schemes, typography, memo templates, and other visual identity standards has provided the organization with a distinctive and cohesive brand image that is instantly recognizable.
       <br><br>
       His outstanding graphic designs have consistently aligned with the organisation's brand strategy, producing visually compelling communication materials that effectively engage stakeholders and reflect the company's values and professionalism. He has also successfully developed and managed impactful social media communications, ensuring that every post reinforces the organization's identity and strategic objectives.
       <br><br>
@@ -482,10 +524,41 @@ footer{background:#07101f;padding:2rem;text-align:center}
       </div>
     </div>
 
-    <div class="t-placeholder">
-      <span style="font-size:1.5rem;color:var(--border)">+</span>
-      <strong style="font-size:0.83rem;color:var(--slate)">Add your next testimonial here</strong>
-      <span style="font-size:0.76rem;text-align:center">Placeholder — replace with additional client feedback</span>
+    <div class="t-share" id="share-testimonial">
+      <h3>Share a testimonial</h3>
+      <p class="t-share-lead">If we have worked together, you are welcome to share a short recommendation. Submissions are emailed to Oludele for review and are not published automatically.</p>
+      <form class="t-form" action="https://formsubmit.co/oludele.gbenro@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New portfolio testimonial for review — Oludele Gbenro">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="true">
+        <input type="hidden" name="_next" value="https://deleg15.github.io/oludelegbenro/thanks.html">
+        <div class="t-honey" aria-hidden="true">
+          <label>Leave blank <input type="text" name="_honey" tabindex="-1" autocomplete="off"></label>
+        </div>
+        <label>Name
+          <input type="text" name="name" autocomplete="name" required>
+        </label>
+        <label>Role / title
+          <input type="text" name="role" autocomplete="organization-title" required>
+        </label>
+        <label>Organisation
+          <input type="text" name="organisation" autocomplete="organization" required>
+        </label>
+        <label>Relationship to Oludele <span class="hint">(optional)</span>
+          <input type="text" name="relationship" placeholder="e.g. former colleague, client, partner">
+        </label>
+        <label class="full">Email <span class="hint">Used only to verify this submission. It will not be published.</span>
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label class="full">Testimonial
+          <textarea name="testimonial" required></textarea>
+        </label>
+        <label class="t-consent full">
+          <input type="checkbox" name="consent" value="I agree this may be published on Oludele's site" required>
+          <span>I agree this may be published on Oludele's site</span>
+        </label>
+        <div class="full"><button type="submit" class="btn-primary">Send for review</button></div>
+      </form>
     </div>
 
   </div>
@@ -532,5 +605,39 @@ footer{background:#07101f;padding:2rem;text-align:center}
   <div class="footer-copy">© 2026 Oludele Samson Gbenro · Head of Product Management & Brand Communication · Lagos, Nigeria</div>
 </footer>
 
+<script>
+(function(){
+  var btn=document.querySelector('.nav-toggle');
+  var links=document.querySelector('#site-nav');
+  if(btn && links){
+    btn.addEventListener('click', function(){
+      var open=btn.getAttribute('aria-expanded')==='true';
+      btn.setAttribute('aria-expanded', open?'false':'true');
+      links.classList.toggle('is-open', !open);
+    });
+    links.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        if(window.matchMedia('(max-width:700px)').matches){
+          btn.setAttribute('aria-expanded','false');
+          links.classList.remove('is-open');
+        }
+      });
+    });
+  }
+  document.querySelectorAll('.has-sub').forEach(function(li){
+    var t=li.querySelector(':scope > a');
+    if(!t) return;
+    if(!t.hasAttribute('aria-expanded')) t.setAttribute('aria-expanded','false');
+    function open(){t.setAttribute('aria-expanded','true');}
+    function close(){t.setAttribute('aria-expanded','false');}
+    li.addEventListener('mouseenter', open);
+    li.addEventListener('mouseleave', close);
+    li.addEventListener('focusin', open);
+    li.addEventListener('focusout', function(e){
+      if(!li.contains(e.relatedTarget)) close();
+    });
+  });
+})();
+</script>
 </body>
 </html>
