@@ -6,9 +6,10 @@
 <title>Thank you | Oludele Gbenro</title>
 <meta name="description" content="Thank you. Your testimonial has been received and will appear once reviewed.">
 <meta name="robots" content="noindex">
-<link rel="icon" href="assets/img/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
-<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="icon" href="assets/img/favicon-osg.ico?v=2" sizes="any">
+<link rel="icon" type="image/png" href="assets/img/favicon-osg-32.png?v=2" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon-osg.png?v=2">
+<link rel="icon" type="image/png" href="assets/img/icon-osg-512.png?v=2" sizes="512x512">
 <link rel="canonical" href="https://deleg15.github.io/oludelegbenro/thanks.html">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -16,7 +17,7 @@
 body{font-family:'Segoe UI',system-ui,sans-serif;color:var(--text);background:var(--cream);line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
 a{text-decoration:none}
 nav{background:var(--navy);padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center}
-.logo{color:var(--gold);font-weight:700;font-size:1.1rem;letter-spacing:0.05em}
+.logo{display:flex;align-items:center;flex-shrink:0;line-height:0}.logo picture{display:block;line-height:0}.logo img{height:40px;width:auto;display:block}
 .nav-links{display:flex;gap:1.5rem;list-style:none}
 .nav-links a{color:rgba(255,255,255,0.8);font-size:0.85rem}
 .nav-links a:hover{color:var(--gold)}
@@ -32,7 +33,10 @@ footer{background:#07101f;padding:1.5rem 2rem;text-align:center}
 </head>
 <body>
 <nav>
-  <a class="logo" href="index.html">OSG</a>
+  <a class="logo" href="index.html"><picture>
+    <source type="image/webp" srcset="assets/img/logo-osg-on-dark.webp">
+    <img src="assets/img/logo-osg-on-dark.png" width="79" height="40" alt="Oludele Samson Gbenro monogram">
+  </picture></a>
   <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
     <li><a href="index.html#testimonials">Testimonials</a></li>
