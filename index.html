@@ -31,7 +31,7 @@
   --slate:#4A5568;--light:#F4F4F8;--border:#E2E8F0;
   --text:#1A1F36;--muted:#6B7280;
 }
-#about,#skills,#services,#portfolio,#testimonials,#contact,#gallery{scroll-margin-top:5.5rem}
+#about,#skills,#services,#lead,#portfolio,#testimonials,#contact,#gallery{scroll-margin-top:5.5rem}
 .nav-toggle{display:none;width:44px;height:44px;background:transparent;border:1.5px solid var(--gold);cursor:pointer;padding:0;align-items:center;justify-content:center}
 .nav-toggle-bars,.nav-toggle-bars::before,.nav-toggle-bars::after{display:block;width:18px;height:2px;background:var(--gold);position:relative}
 .nav-toggle-bars::before,.nav-toggle-bars::after{content:"";position:absolute;left:0}
@@ -150,6 +150,12 @@ section{padding:4rem 2rem;max-width:1100px;margin:0 auto}
 .t-honey{position:absolute;left:-9999px;height:1px;width:1px;overflow:hidden}
 
 
+.section-lead{color:var(--slate);font-size:0.98rem;line-height:1.7;margin:0 0 1.6rem;max-width:42rem}
+.lead-note{margin-top:1.6rem;font-size:0.88rem;color:var(--slate)}
+.lead-note a{color:var(--navy);font-weight:700;border-bottom:1px solid var(--gold)}
+.section-lead-w{color:rgba(255,255,255,0.72);font-size:0.98rem;line-height:1.7;margin:0 0 1.6rem;max-width:42rem}
+.impact-note{margin:0 0 1.75rem;font-size:0.9rem;color:rgba(255,255,255,0.7);line-height:1.7}
+.impact-note a{color:var(--gold);border-bottom:1px solid rgba(201,168,76,0.55)}
 .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1rem;margin-bottom:1.75rem}
 .why-card{padding:1.35rem;border:0.5px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.05);text-align:center}
 .why-icon{font-size:1.6rem;margin-bottom:0.55rem}
@@ -209,7 +215,7 @@ footer{background:#07101f;padding:2rem;text-align:center}
   <ul class="nav-links" id="site-nav">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
-    <li><a href="#services">Services</a></li>
+    <li><a href="#lead">What I lead</a></li>
     <li class="has-sub"><a href="#portfolio" aria-haspopup="true" aria-expanded="false">Portfolio</a>
       <ul class="sub" aria-label="Portfolio submenu">
         <li><a href="gallery.html">Gallery</a></li>
@@ -326,37 +332,38 @@ footer{background:#07101f;padding:2rem;text-align:center}
 </div>
 </div>
 
-<!-- SERVICES -->
-<section id="services">
-  <div class="eyebrow">Services offered</div>
-  <div class="section-title">How I can help your organisation.</div>
+<!-- WHAT I LEAD -->
+<section id="lead">
+  <div class="section-title">What I lead</div>
   <div class="divider"></div>
+  <p class="section-lead">The work I own at First Registrars, and for brands such as CleCheck.</p>
   <div class="services-grid">
     <div class="service-card">
       <div class="service-num">01</div>
-      <div class="service-title">Brand Identity Design</div>
-      <div class="service-desc">From brand audits through to logo systems, colour palettes, typography, and brand books that govern how your brand shows up everywhere — digital and physical.</div>
-      <div class="tags"><span class="tag">Logo Design</span><span class="tag">Brand Book</span><span class="tag">Style Guide</span><span class="tag">Rebranding</span></div>
+      <div class="service-title">Brand identity and visual systems</div>
+      <div class="service-desc">I set the identity system a brand is recognised by — typography, colour, templates and the brand book — and keep it consistent across digital and physical touchpoints.</div>
+      <div class="tags"><span class="tag">Brand systems</span><span class="tag">Brand books</span><span class="tag">Style guides</span><span class="tag">Rebranding</span></div>
     </div>
     <div class="service-card">
       <div class="service-num">02</div>
-      <div class="service-title">Digital & Campaign Design</div>
-      <div class="service-desc">Social media graphics, display ads, email templates, newsletters, presentation decks, and RFP documents — designed to perform as well as they look.</div>
-      <div class="tags"><span class="tag">Social Media</span><span class="tag">Email Design</span><span class="tag">Display Ads</span><span class="tag">Pitch Decks</span></div>
+      <div class="service-title">Product and campaign communication</div>
+      <div class="service-desc">I lead the communication around products, shareholder services and campaigns: social and display, email, investor education, webinars and pitch materials, so the message is as considered as the design.</div>
+      <div class="tags"><span class="tag">Campaigns</span><span class="tag">Email</span><span class="tag">Investor comms</span><span class="tag">Pitch decks</span></div>
     </div>
     <div class="service-card">
       <div class="service-num">03</div>
-      <div class="service-title">Video & Motion Content</div>
-      <div class="service-desc">Concept, script, produce, and deliver AI-assisted marketing videos, sizzle reels, tutorials, how-to demos, and social video — end-to-end without an external agency.</div>
-      <div class="tags"><span class="tag">AI Video</span><span class="tag">Sizzle Reels</span><span class="tag">Tutorials</span><span class="tag">Webinar Comms</span></div>
+      <div class="service-title">Video, motion and AI-assisted production</div>
+      <div class="service-desc">I built an in-house capability for marketing video and motion — sizzle reels, tutorials, demos and social film — using AI-assisted production so the work does not depend on an external agency.</div>
+      <div class="tags"><span class="tag">Video</span><span class="tag">Motion</span><span class="tag">AI production</span><span class="tag">Webinar comms</span></div>
     </div>
     <div class="service-card">
       <div class="service-num">04</div>
-      <div class="service-title">Print & Event Collateral</div>
-      <div class="service-desc">Conference banners, booth kits, product launch materials, signage, and swag — designed to brand standards and managed through to print production and delivery.</div>
-      <div class="tags"><span class="tag">Event Design</span><span class="tag">Product Launch</span><span class="tag">Signage</span><span class="tag">Print</span></div>
+      <div class="service-title">Print, events and delivery</div>
+      <div class="service-desc">I take event and print collateral from concept through to production: banners, booth kits, launch materials and vendor management, to the same brand standard as the digital work.</div>
+      <div class="tags"><span class="tag">Events</span><span class="tag">Product launches</span><span class="tag">Signage</span><span class="tag">Print</span></div>
     </div>
   </div>
+  <p class="lead-note">Selected design work is also collected on <a href="https://www.behance.net/deleg15" target="_blank" rel="noopener">Behance</a>.</p>
 </section>
 
 <!-- PORTFOLIO -->
@@ -564,19 +571,20 @@ footer{background:#07101f;padding:2rem;text-align:center}
   </div>
 </section>
 
-<!-- WHY WORK WITH ME -->
+<!-- SELECTED IMPACT -->
 <div class="bg-navy">
 <div class="inner">
-  <div class="eyebrow-w">Why work with me</div>
-  <div class="section-title-w">Five reasons to hire me.</div>
+  <div class="section-title-w">Selected impact</div>
   <div class="divider"></div>
+  <p class="section-lead-w">How I work as a brand and product leader.</p>
   <div class="why-grid">
-    <div class="why-card"><div class="why-icon">🧠</div><div class="why-label">Strategic thinking</div><div class="why-desc">I design from objectives — every creative choice is tied to a business outcome, not just aesthetics.</div></div>
-    <div class="why-card"><div class="why-icon">🔧</div><div class="why-label">Problem solving</div><div class="why-desc">When there's no budget for a video team, I build one using AI. Constraints are where creativity lives.</div></div>
-    <div class="why-card"><div class="why-icon">🤝</div><div class="why-label">Clear communication</div><div class="why-desc">I rationalise design decisions to non-creative stakeholders clearly. No jargon, just results.</div></div>
-    <div class="why-card"><div class="why-icon">🔍</div><div class="why-label">Attention to detail</div><div class="why-desc">18+ years of brand consistency across hundreds of assets. The details are where trust is built.</div></div>
-    <div class="why-card"><div class="why-icon">📈</div><div class="why-label">Delivers results</div><div class="why-desc">Not just outputs — outcomes. Every project is measured against what it was supposed to achieve.</div></div>
+    <div class="why-card"><div class="why-label">Strategic from the outset</div><div class="why-desc">I start from the business objective. Creative choices follow the outcome the work is meant to achieve, not the other way around.</div></div>
+    <div class="why-card"><div class="why-label">Resourceful under constraint</div><div class="why-desc">When there is no budget for a dedicated video team, I build the capability in-house with AI-assisted production. Constraints are where the work gets sharper.</div></div>
+    <div class="why-card"><div class="why-label">Clear with stakeholders</div><div class="why-desc">I can explain a design or brand decision to non-creative colleagues in plain language, and keep the brand voice consistent across email, video, print and social.</div></div>
+    <div class="why-card"><div class="why-label">Consistent over time</div><div class="why-desc">Eighteen years of brand work across hundreds of assets, including the First Registrars identity system. The details are where trust is built.</div></div>
+    <div class="why-card"><div class="why-label">Accountable for outcomes</div><div class="why-desc">I treat every project as more than a set of deliverables. The measure is whether it did what it was supposed to do — from a product launch to a shareholder campaign.</div></div>
   </div>
+  <p class="impact-note">A wider set of case studies is on <a href="https://www.behance.net/deleg15" target="_blank" rel="noopener">Behance</a>, for anyone who wants to see the work in full.</p>
   <div class="cta-banner" id="contact">
     <h3>Ready to build something remarkable?</h3>
     <p>Open to senior Brand, Marketing, Product, Corporate Communications and Customer Experience roles internationally, especially in Luxembourg, Canada and Finland. Currently based in Lagos, Nigeria.</p>
@@ -594,7 +602,7 @@ footer{background:#07101f;padding:2rem;text-align:center}
   <div class="footer-links">
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
-    <a href="#services">Services</a>
+    <a href="#lead">What I lead</a>
     <a href="#portfolio">Portfolio</a>
     <a href="gallery.html">Gallery</a>
     <a href="#testimonials">Testimonials</a>
