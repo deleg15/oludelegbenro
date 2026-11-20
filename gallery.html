@@ -47,7 +47,7 @@
 body{font-family:'Segoe UI',system-ui,sans-serif;color:var(--text);background:var(--cream);line-height:1.6}
 a{text-decoration:none}
 nav{background:var(--navy);padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100}
-.logo{display:flex;align-items:center;flex-shrink:0;line-height:0}.logo picture{display:block;line-height:0}.logo img{height:40px;width:auto;display:block}
+.logo{display:flex;align-items:center;flex-shrink:0;line-height:0}.logo picture{display:block;line-height:0}.logo img{height:40px;width:auto;display:block}a.logo{text-decoration:none}a.logo:focus,a.logo:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .nav-links{display:flex;gap:1.5rem;list-style:none;flex-wrap:wrap}
 .nav-links a{color:rgba(255,255,255,0.8);font-size:0.85rem;letter-spacing:0.04em}
 .nav-links a:hover{color:var(--gold)}
@@ -237,7 +237,7 @@ footer{background:#07101f;padding:2rem;text-align:center}
 <body>
 
 <nav>
-  <a class="logo" href="index.html"><picture>
+  <a class="logo" href="./" aria-label="Oludele Gbenro, home"><picture>
     <source type="image/webp" srcset="assets/img/logo-osg-on-dark.webp">
     <img src="assets/img/logo-osg-on-dark.png" width="79" height="40" alt="Oludele Samson Gbenro monogram">
   </picture></a>
