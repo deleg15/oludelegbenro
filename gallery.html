@@ -160,7 +160,7 @@ footer{background:#07101f;padding:2rem;text-align:center}
   .portfolio-grid{grid-template-columns:1fr}
   .behance-banner{flex-direction:column;gap:1rem}
 }
-@media(max-width:760px){
+@media(max-width:880px){
   .logo img{height:34px}
   nav{flex-wrap:wrap;gap:0;align-items:center}
   .nav-toggle{display:inline-flex}
@@ -177,7 +177,7 @@ footer{background:#07101f;padding:2rem;text-align:center}
 .nav-links .has-sub>a::after{content:" \25BE";font-size:0.7rem;color:var(--gold)}
 .nav-links .sub a{display:block;padding:0.45rem 0.9rem;white-space:nowrap}
 .nav-links .has-sub{padding-bottom:0.4rem;margin-bottom:-0.4rem}
-@media(max-width:760px){
+@media(max-width:880px){
   .nav-links .sub{position:static;display:flex;flex-direction:column;background:none;border:0;padding:0 0 0 0.9rem;min-width:0;margin:0}
   .nav-links .sub a{padding:0.4rem 0}
   .nav-links .sub a::before{content:"\21B3 ";color:var(--gold)}
@@ -252,6 +252,7 @@ footer{background:#07101f;padding:2rem;text-align:center}
       </ul>
     </li>
     <li><a href="index.html#ai-films">AI Films</a></li>
+    <li><a href="/blog/">Blog</a></li>
     <li><a href="index.html#testimonials">Testimonials</a></li>
     <li><a href="index.html#contact">Contact</a></li>
     <li><a href="https://www.behance.net/deleg15" target="_blank" style="color:var(--gold);font-weight:700">Behance ↗</a></li>
@@ -1071,6 +1072,7 @@ footer{background:#07101f;padding:2rem;text-align:center}
     <a href="index.html#portfolio">Portfolio</a>
     <a href="gallery.html">Gallery</a>
     <a href="index.html#ai-films">AI Films</a>
+    <a href="/blog/">Blog</a>
     <a href="index.html#testimonials">Testimonials</a>
     <a href="mailto:oludele.gbenro@gmail.com">Email</a>
     <a href="https://www.behance.net/deleg15" target="_blank">Behance</a>
@@ -1179,7 +1181,7 @@ footer{background:#07101f;padding:2rem;text-align:center}
     });
     links.querySelectorAll('a').forEach(function(a){
       a.addEventListener('click', function(){
-        if(window.matchMedia('(max-width:760px)').matches){
+        if(window.matchMedia('(max-width:880px)').matches){
           btn.setAttribute('aria-expanded','false');
           links.classList.remove('is-open');
         }
