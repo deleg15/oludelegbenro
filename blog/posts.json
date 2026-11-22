@@ -1,6 +1,41 @@
 {
   "posts": [
     {
+      "slug": "integrity-is-what-you-do-when-no-one-will-ever-find-out",
+      "date": "2026-11-22",
+      "title": "Integrity is what you do when no one will ever find out",
+      "excerpt": "It is easy to lead well on stage. In the town hall. In front of the board. When the customer is watching.",
+      "hashtags": [
+        "Ginspirations",
+        "Leadership",
+        "Integrity",
+        "Character",
+        "Trust"
+      ],
+      "image": "assets/blog/integrity-is-what-you-do-when-no-one-will-ever-find-out.jpg",
+      "image_webp": "assets/blog/integrity-is-what-you-do-when-no-one-will-ever-find-out.webp",
+      "width": 1080,
+      "height": 1080,
+      "paragraphs": [
+        "It is easy to lead well on stage.",
+        "In the town hall.",
+        "In front of the board.",
+        "When the customer is watching.",
+        "The real test happens when nobody is.",
+        "Here's the truth:\nIntegrity is what you do when no one will ever find out.",
+        "Do you correct the invoice that overcharged a customer, even when they did not notice?",
+        "Do you give credit to the team member who did the work, even in a meeting they are not in?",
+        "Do you keep the promise that would be easy to quietly forget?",
+        "Your team may not see every one of those moments.",
+        "But they always feel the pattern.",
+        "Trust is not built by what you say in public.",
+        "It is built by who you are in private, repeated over time.",
+        "What is one small \"unseen\" choice that shows your character this week?",
+        "For more conversations on leadership, service and showing up well, find Ginspirations TV on TikTok @ginspirations.tv"
+      ],
+      "source": "day05-2026-11-22.md"
+    },
+    {
       "slug": "leadership-needs-no-title",
       "date": "2026-11-21",
       "title": "Leadership needs no title",
