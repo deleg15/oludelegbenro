@@ -12,9 +12,15 @@
   </url>
   <url>
     <loc>https://oludelegbenro.com/blog/</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://oludelegbenro.com/blog/clarity-is-kindness/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://oludelegbenro.com/blog/integrity-is-what-you-do-when-no-one-will-ever-find-out/</loc>

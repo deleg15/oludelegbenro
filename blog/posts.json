@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "slug": "clarity-is-kindness",
+      "date": "2026-11-23",
+      "title": "Clarity is kindness",
+      "excerpt": "New week. New tasks. New expectations. Before you hand any of them out, ask yourself one question: Does my team know exactly what \"done\" looks like?",
+      "hashtags": [
+        "Ginspirations",
+        "Leadership",
+        "Communication",
+        "MondayMotivation",
+        "SMEs"
+      ],
+      "image": "assets/blog/clarity-is-kindness.jpg",
+      "image_webp": "assets/blog/clarity-is-kindness.webp",
+      "width": 1080,
+      "height": 1080,
+      "paragraphs": [
+        "New week. New tasks. New expectations.",
+        "Before you hand any of them out, ask yourself one question:",
+        "Does my team know exactly what \"done\" looks like?",
+        "Many leaders think they are being nice by keeping things vague.",
+        "\"Just handle it.\"",
+        "\"Do your best.\"",
+        "\"Get it to me soon.\"",
+        "Then they are disappointed with the result.",
+        "Here's the truth:\nClarity is kindness. Unclear expectations are unfair to good people.",
+        "Be clear about the outcome.",
+        "Be clear about the deadline, a day and a time, not \"soon\".",
+        "Be clear about the standard and who to ask for help.",
+        "Clear does not mean harsh.",
+        "It means you respect people enough to set them up to win.",
+        "Most performance problems I see in SMEs start as clarity problems.",
+        "What is one task you could make clearer for your team this Monday?",
+        "For more conversations on leadership, service and showing up well, find Ginspirations TV on TikTok @ginspirations.tv"
+      ],
+      "source": "day06-2026-11-23.md"
+    },
+    {
       "slug": "integrity-is-what-you-do-when-no-one-will-ever-find-out",
       "date": "2026-11-22",
       "title": "Integrity is what you do when no one will ever find out",
