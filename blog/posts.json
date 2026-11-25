@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "slug": "customer-experience-starts-in-the-staff-room",
+      "date": "2026-11-25",
+      "title": "Customer experience starts in the staff room",
+      "excerpt": "Your customers will never read your values statement.",
+      "hashtags": [
+        "Ginspirations",
+        "Leadership",
+        "CustomerExperience",
+        "TeamCulture",
+        "SMEs"
+      ],
+      "image": "assets/blog/customer-experience-starts-in-the-staff-room.jpg",
+      "image_webp": "assets/blog/customer-experience-starts-in-the-staff-room.webp",
+      "width": 1080,
+      "height": 1080,
+      "paragraphs": [
+        "Your customers will never read your values statement.",
+        "They will meet your team.",
+        "And your team will treat them the way you treat your team.",
+        "If you are dismissive in meetings, do not expect warmth at the front desk.",
+        "If you ignore complaints from staff, do not expect patience with customers.",
+        "If you only appear when something goes wrong, do not expect pride in the work.",
+        "Here's the truth:\nCustomer experience starts in the staff room.",
+        "A team that feels heard, respected and supported finds it natural to do the same for customers.",
+        "A team that feels ignored will pass that feeling on, one transaction at a time.",
+        "You cannot demand a smile you have not earned.",
+        "Want better service?",
+        "Start by serving the people who serve your customers.",
+        "How would your team describe the way you treat them?",
+        "For more conversations on leadership, service and showing up well, find Ginspirations TV on TikTok @ginspirations.tv"
+      ],
+      "source": "day08-2026-11-25.md"
+    },
+    {
       "slug": "delegation-is-ownership-not-dumping",
       "date": "2026-11-24",
       "title": "Delegation is ownership, not dumping",
