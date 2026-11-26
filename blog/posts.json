@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "slug": "the-best-leaders-speak-last",
+      "date": "2026-11-26",
+      "title": "The best leaders speak last",
+      "excerpt": "In many meetings, the most senior person speaks first.",
+      "hashtags": [
+        "Ginspirations",
+        "Leadership",
+        "ActiveListening",
+        "Communication",
+        "EmotionalIntelligence"
+      ],
+      "image": "assets/blog/the-best-leaders-speak-last.jpg",
+      "image_webp": "assets/blog/the-best-leaders-speak-last.webp",
+      "width": 1080,
+      "height": 1080,
+      "paragraphs": [
+        "In many meetings, the most senior person speaks first.",
+        "Then everyone else agrees.",
+        "Quietly.",
+        "Politely.",
+        "And the real concerns stay unspoken.",
+        "Here's the truth:\nThe best leaders listen more than they talk.",
+        "They speak last, so people feel free to speak honestly.",
+        "They ask a question, then wait through the silence.",
+        "They notice who has gone quiet.",
+        "They listen for what is not being said: the hesitation, the worry, the idea nobody dared to raise.",
+        "Listening is not passive.",
+        "It is the fastest way to learn what is really happening in your business.",
+        "And it tells people that their voice matters.",
+        "In your next meeting, try this: ask, then say nothing for ten seconds.",
+        "You may be surprised by what you hear.",
+        "When last did you leave a meeting having talked less than you listened?",
+        "For more conversations on leadership, service and showing up well, find Ginspirations TV on TikTok @ginspirations.tv"
+      ],
+      "source": "day09-2026-11-26.md"
+    },
+    {
       "slug": "customer-experience-starts-in-the-staff-room",
       "date": "2026-11-25",
       "title": "Customer experience starts in the staff room",
