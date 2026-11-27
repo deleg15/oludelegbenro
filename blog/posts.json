@@ -1,6 +1,42 @@
 {
   "posts": [
     {
+      "slug": "vague-criticism-shrinks-people",
+      "date": "2026-11-27",
+      "title": "Vague criticism shrinks people",
+      "excerpt": "\"Good job.\" \"Not good enough.\" \"You need to do better.\" Leaders say these things all the time.",
+      "hashtags": [
+        "Ginspirations",
+        "Leadership",
+        "Feedback",
+        "TGIF",
+        "PeopleDevelopment"
+      ],
+      "image": "assets/blog/vague-criticism-shrinks-people.jpg",
+      "image_webp": "assets/blog/vague-criticism-shrinks-people.webp",
+      "width": 1080,
+      "height": 1080,
+      "paragraphs": [
+        "\"Good job.\"",
+        "\"Not good enough.\"",
+        "\"You need to do better.\"",
+        "Leaders say these things all the time.",
+        "And none of them helps anyone improve.",
+        "Here's the truth:\nSpecific, timely and kind feedback grows people. Vague criticism shrinks them.",
+        "Specific: \"The client summary was clear and you answered every question.\"",
+        "Timely: say it this week, not at the annual review.",
+        "Kind: be honest about the problem and respectful of the person.",
+        "Praise the behaviour you want repeated.",
+        "Name the gap you want closed, and offer help to close it.",
+        "People rarely fail because they were told the truth.",
+        "They fail because nobody told them clearly, early enough or with enough care.",
+        "It is Friday.",
+        "Who on your team needs specific feedback before the weekend?",
+        "For more conversations on leadership, service and showing up well, find Ginspirations TV on TikTok @ginspirations.tv"
+      ],
+      "source": "day10-2026-11-27.md"
+    },
+    {
       "slug": "the-best-leaders-speak-last",
       "date": "2026-11-26",
       "title": "The best leaders speak last",
